@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jonathan T. Risoldi"/>
+    <meta name="viewport" content="width=devive-width, initial-scale=1">
+    <link rel="icon" href="CUnifyTransparent.png">
+    <title>Cairn Unify</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- TODO:
+      -Change Quick Search input bar and button
+      -Submit all button for social edits
+      -
+   -->
+  </head>
+  <body class="bg-light">
+    <nav class="navbar-expand-md navbar-dark sticky-top" style="background: #611a32;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hide" aria-controls="hide" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="hide">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="myProfile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Connect</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cairn.edu/give/">Give</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Quick Search">
+            <button class="btn btn-dark" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <br>
+    <div class="container container-fluid col-11">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card col-12">
+            <div class="card-body col-md-12">
+              <div class="row col-md-12">
+                <div class="col-md-4">
+                  <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+                  <div class="text-right">
+                    <a class="btn btn-dark" href="#">Edit</a>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>John Doe</h3>
+                    </div>
+                    <div class="col-md-2 text-right">
+                      <a class="btn btn-dark" href="#">Request Edit</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>Example Major</h3>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>Class of:XXXX</h3>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>Current Occupation</h3>
+                    </div>
+                    <div class="col-md-2 text-right">
+                      <a class="btn btn-dark" href="#">Edit</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>Email@email.com</h3>
+                    </div>
+                    <div class="col-md-2 text-right">
+                      <a class="btn btn-dark" href="#">Edit</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>(123)555-6789</h3>
+                    </div>
+                    <div class="col-md-2 text-right">
+                      <a class="btn btn-dark" href="#">Edit</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h3>123 Example RD Example, EX, 00000</h3>
+                    </div>
+                    <div class="col-md-2 text-right">
+                      <a class="btn btn-dark" href="#">Edit</a>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12">
+          <div class="card col-12">
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col-1">
+
+                </div>
+                <div class="col-2">
+                  <a href="#" style="color:inherit; font-size:6em;"><i class="fab fa-linkedin mr-sm-5"></i></a>
+                  <div class="collapse input-group mb-3" id="socialExpand">
+                    <input class="form-control" type="url" name="" value="" placeholder="Profile URL">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-sm" type="button">submit</button>
+                    </div>
+                  </div>
+                  <br>
+                </div>
+                <div class="col-2">
+                  <a href="#" style="color:inherit; font-size:6em;"><i class="fab fa-github mr-sm-5"></i></a>
+                  <div class="collapse" id="linkedinExpand">
+                    <input type="url" name="" value="" placeholder="Profile URL"><a class="btn btn-dark" href="#">></a>
+                  </div>
+                  <div class="collapse input-group mb-3" id="socialExpand">
+                    <input class="form-control" type="url" name="" value="" placeholder="Profile URL">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-sm" type="button">submit</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <a href="#" style="color:inherit; font-size:6em;"><i class="fab fa-facebook mr-sm-5"></i></a>
+                  <div class="collapse input-group mb-3" id="socialExpand">
+                    <input class="form-control" type="url" name="" value="" placeholder="Profile URL">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-sm" type="button">submit</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <a href="#" style="color:inherit; font-size:6em;"><i class="fab fa-twitter mr-sm-5"></i></a>
+                  <div class="collapse input-group mb-3" id="socialExpand">
+                    <input class="form-control" type="url" name="" value="" placeholder="Profile URL">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-sm" type="button">submit</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <a href="#" style="color:inherit; font-size:6em;"><i class="fab fa-instagram mr-sm-5"></i></a>
+                  <div class="collapse input-group mb-3" id="socialExpand">
+                    <input class="form-control" type="url" name="" value="" placeholder="Profile URL">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark btn-sm" type="button">submit</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <a class="btn btn-dark btn-lg" href="#socialExpand" data-toggle="collapse">Edit</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
